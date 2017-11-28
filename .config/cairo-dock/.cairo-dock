@@ -1,0 +1,11 @@
+[Launch]
+last version=3.4.1
+default backend=opengl
+last year=0
+
+cd session=true
+
+ping server=true
+
+[Gui]
+mode=0

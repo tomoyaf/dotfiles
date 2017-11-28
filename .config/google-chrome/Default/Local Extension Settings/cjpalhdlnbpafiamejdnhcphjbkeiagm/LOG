@@ -1,0 +1,20 @@
+2017/11/28-22:22:56.321 7028 Reusing MANIFEST /home/nsi/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2017/11/28-22:22:56.321 7028 Recovering log #131
+2017/11/28-22:22:56.321 7028 Reusing old log /home/nsi/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000131.log 
+2017/11/28-22:34:01.972 7902 Level-0 table #135: started
+2017/11/28-22:34:02.025 7902 Level-0 table #135: 2633455 bytes OK
+2017/11/28-22:34:02.027 7902 Delete type=0 #131
+2017/11/28-22:34:02.030 7902 Compacting 4@0 + 2@1 files
+2017/11/28-22:34:02.085 7902 Generated table #136@0: 14 keys, 2145577 bytes
+2017/11/28-22:34:02.119 7902 Generated table #137@0: 24 keys, 1815631 bytes
+2017/11/28-22:34:02.119 7902 Compacted 4@0 + 2@1 files => 3961208 bytes
+2017/11/28-22:34:02.121 7902 compacted to: files[ 0 3 1 0 0 0 0 ]
+2017/11/28-22:34:02.121 7902 Delete type=2 #135
+2017/11/28-22:34:02.122 7902 Delete type=2 #123
+2017/11/28-22:34:02.122 7902 Delete type=2 #124
+2017/11/28-22:34:02.122 7902 Delete type=2 #132
+2017/11/28-22:34:02.123 7902 Delete type=2 #130
+2017/11/28-22:34:02.123 7902 Delete type=2 #128
+2017/11/28-23:10:56.226 7902 Level-0 table #139: started
+2017/11/28-23:10:56.307 7902 Level-0 table #139: 3141902 bytes OK
+2017/11/28-23:10:56.310 7902 Delete type=0 #134

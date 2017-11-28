@@ -1,0 +1,543 @@
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    background-image: url("../assets/mountainbackground.png");
+    font-family: "Segoe UI Web (West European)", "Segoe UI", -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+    color: #212121;
+    font-size: 16px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Make all the containing divs expand to the full size of body */
+main {
+    width: 100%;
+    height: 100%;
+}
+/* Make all the containing divs expand to the full size of body */
+.main_view {
+    width: 100%;
+    height: 100%;
+}
+/* Make all the containing divs expand to the full size of body */
+.popup_view {
+    width: 100%;
+    height: 100%;
+}
+
+/* Need to to support ng-hide & ng-show directives */
+.ng-hide {
+    display: none!important;
+}
+
+/* Used to fade out underlying UI (e.g. MRU) while displaying menus */
+.fading_panel {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 20; /* Greater than the MRU, but less than ribbon and menus */
+    position: absolute;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.menu_panel_closed {
+    text-align: center;
+    z-index: 25;
+    position: absolute;
+    background-color: #F8FBFD;
+    width: 100%;
+    height: 5px;
+    box-shadow: 0 2px 2px #c8c8c8;
+}
+
+.menu_collapse {
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.menu_collapse:hover {
+    color: #0078D7;
+}
+
+.checkbox_group {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+}
+
+.ms-CheckBox-field.in-focus.is-checked::before {
+  border-color: #d83b01;
+}
+
+.ms-CheckBox-field.is-checked::before {
+  border: 10px solid #ea4300;
+  background-color: #ea4300;
+}
+
+.ms-CheckBox-field.is-checked:hover::before,
+.ms-CheckBox-field.is-checked:focus::before {
+  border-color: #d83b01;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  border-radius: 18px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box::after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* .box:hover {
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+} */
+
+.box:hover::after {
+    opacity: 1;
+}
+
+.box_expand {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+/* .box_expand:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+} */
+
+.login_view {
+    width: 322px;
+    height: 322px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login_view .login_title {
+    font-weight: 600;
+    padding-top: 37px;
+    letter-spacing: 0.3px;
+    font-size:44px;
+    color: #e96621;
+}
+
+.login_view .login_subtitle {
+    padding: 24px 24px 12px 24px;
+    color: #212121;
+}
+
+.login_view .login_panel {
+    padding-top: 20px;
+}
+
+.login_panel .login_option {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login_option .login_button {
+    width: 274px;
+    border-radius: 4px;
+    background-color: #e96621;
+    color: #ffffff;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.action_button {
+    width: 274px;
+    border-radius: 4px;
+    background-color: #e96621;
+    color: #ffffff;
+    letter-spacing: -0.6px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.action_button label {
+    cursor: pointer;
+}
+
+.home_view {
+    width: 322px;
+    background-image: url(../);
+    z-index: 100;
+}
+
+.app_panel {
+    z-index: 0;
+    padding-top:72px;
+}
+
+.app_group_header {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.app_table {
+    display: table;
+}
+
+.app_table_row {
+    display: table-row;
+}
+
+.app_table_cell:hover, .app_table_cell:focus {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.app_table_cell {
+    display: table-cell;
+    font-size: 24px;
+    padding: 7px 18px 7px 23px;
+}
+
+.app_button {
+    display: flex;
+    width: 120px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.app_name {
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+/* Office.com appIcon Color Palette */
+.outlook_color_fix {
+    color: rgb(43, 122, 218);
+}
+
+.excel_color_fix {
+    color: rgb(33, 115, 70);
+}
+
+.oneDrive_color_fix {
+    color: rgb(0, 120, 215);
+}
+
+.word_color_fix {
+    color: rgb(43, 87, 154);
+}
+
+.powerpoint_color_fix {
+    color: rgb(183, 71, 42);
+}
+
+.oneNote_color_fix {
+    color: rgb(119, 25, 170);
+}
+
+.sway_color_fix {
+    color: rgb(0, 130, 114);
+}
+
+.sharepoint_color_fix {
+    color: rgb(43, 122, 218);
+}
+
+.teams_color_fix {
+    color: rgb(87, 89, 178);
+}
+
+.action_panel {
+    z-index: 100;
+}
+
+/* Used for New and Open Menus */
+.action_group {
+    text-align: left;
+    padding: 24px 16px 4px 16px;
+}
+
+/* Used for Settings menu */
+.settings_group {
+    text-align: left;
+    align-items: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.profile_panel {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    z-index: 101;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    background: url("../assets/mountainbackground.png");
+}
+
+.settings_button {
+    left: 190px;
+    top: 32px;
+    position: absolute;
+    font-size:12px;
+    cursor: pointer;
+}
+
+.signout_button {
+    left: 12px;
+    top: 56px;
+    position: absolute;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.account_panel {
+    width: 100%;
+    top: 72px;
+    z-index: 50;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    background: url("../assets/mountainbackground.png");
+    background-position-y: -72px;
+}
+
+.account_name {
+    font-size:16px;
+}
+
+.account_button {
+    font-size:16px;
+    cursor: pointer;
+}
+
+.profile_button {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #999999;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.profile_circle_inner {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile_picture {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mru_panel {
+    width:100%;
+    z-index: 0;
+}
+
+.mru_container {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.mru_container:hover, .mru_container:focus {
+    background-color: #f1f1f1;
+}
+
+.mru_message_panel {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.mru_message_content {
+    display: inline-block;
+    padding-top: 16px;
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+    color: #c8c8c8;
+}
+
+.mru_label {
+    font-size: 18px;
+    padding: 4px 23px 4px 23px;
+    font-weight: 600;
+}
+
+.list_row {
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+}
+
+.list_image{
+    padding-top: 8px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* spacer between icon and filename */
+.list_middle {
+    width: 12px;
+}
+
+.list_end {
+    height: 40px;
+    width: 202px; /* Body + margin = 266  ::: 266 - 16 - 16 - 20 - 12 = 202 */
+}
+
+/* Use a different container for the open list because the strings can wrap */
+.list_end_open {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.mru_name {
+    padding-top: 10px;
+    font-size: 14px;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mru_view_more {
+    padding-top: 4px;
+    padding-left: 23px;
+    padding-right: 23px;
+    display: inline-block;
+    color: #0078D7;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mru_view_more label {
+    cursor: pointer;
+}
+
+.open_local_panel {
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    z-index: 0;
+    text-align: center;
+}
+
+/* Menu animations */
+.menu-switch-animation.ng-enter,
+.menu-switch-animation.ng-leave {
+  -webkit-transition: 200ms ease-in-out all;
+  -moz-transition: 200ms ease-in-out all;
+  -o-transition: 200ms ease-in-out all;
+  transition: 200ms ease-in-out all;
+}
+
+.menu-switch-animation.ng-enter {
+    top: -115px;
+    z-index: 26;
+}
+
+.menu-switch-animation.ng-leave {
+    top: 72px;
+    z-index: 24;
+}
+
+.menu-switch-animation.ng-enter.ng-enter-active {
+    top: 72px;
+    z-index: 26;
+}
+
+.menu-switch-animation.ng-leave.ng-leave-active {
+    top: -115px;
+    z-index: 24;
+}
+/* End Menu animations */
+
+/* MRU Loading animations */
+.animate-repeat {
+  list-style:none;
+  box-sizing:border-box;
+}
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+  transition:all linear 0.5s;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+  opacity:0;
+  max-height:0;
+}
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+  opacity:1;
+  max-height:40px;
+}
+/* End MRU Loading animations */

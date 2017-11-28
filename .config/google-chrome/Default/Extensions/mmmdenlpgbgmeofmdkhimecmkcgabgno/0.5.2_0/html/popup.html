@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>UncannyCookieClicker Popup</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.css" rel="stylesheet" media="screen">
+  <link href="../css/popup.css" rel="stylesheet" media="screen">
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <div class="header">
+        Uncanny Cookie Clicker
+      </div>
+      <div class="body">
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" id="speed-up-game" />
+              Speed up the game
+            </label>
+            <div class="option">
+              <label for="speed-up-game-factor">
+                x
+              </label>
+              <input type="number" min="1" class="input-number" id="speed-up-game-factor" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="header">
+        Big Cookie
+      </div>
+      <div class="body">
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" id="auto-click-cookie" />
+              Auto-click
+            </label>
+            <div class="option">
+              <label for="auto-click-cookie-interval">
+                interval:
+              </label>
+              <input type="number" min="1" class="input-number" id="auto-click-cookie-interval" />
+              ms
+            </div>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="auto-pop-wrinklers" />
+              Auto-pop Wrinklers
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="header">
+        Golden Cookie
+      </div>
+      <div class="body">
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" id="auto-click-golden-cookie" />
+              Auto-click
+            </label>
+            <div class="option">
+              <ul>
+                <li>
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <label>
+                    <input type="checkbox" id="avoid-red-cookie" />
+                    Avoid red one
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="notify-golden-cookie" />
+              Notify when it appears
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="header">
+        Season Popup
+      </div>
+      <div class="body">
+        <ul>
+          <li>
+            <label>
+              <input type="checkbox" id="auto-click-season-popup" />
+              Auto-click
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="notify-season-popup" />
+              Notify when it appears
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="header">
+        Upgrades
+      </div>
+      <div class="body">
+        <ul>
+          <li>
+            <label id="auto-buy-upgrades-label">
+              <input type="checkbox" id="auto-buy-upgrades" />
+              Auto-buy
+            </label>
+            <div class="option">
+              <ul>
+                <li>
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <label>
+                    <input type="checkbox" id="bypass-dialog-for-upgrades" />
+                    Bypass dialog
+                  </label>
+                </li>
+                <li>
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <label>
+                    <input type="checkbox" id="buy-repeatable-upgrades" />
+                    [Repeatable]
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" id="notify-available-upgrades" />
+              Notify when available
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="header">
+        Buildings
+      </div>
+      <div class="body">
+        <ul>
+          <li>
+            <label id="auto-buy-buildings-label">
+              <input type="checkbox" id="auto-buy-buildings" />
+              Auto-buy
+            </label>
+            <div class="option">
+              <ul>
+                <li class="text-only">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <a href="#" id="toggle-building-list">More...</a>
+                </li>
+              </ul>
+            </div>
+            <div id="building-list" class="sub-options">
+              <ul></ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="../js/lib/jquery.js"></script>
+  <script src="../js/lib/bootstrap.js"></script>
+  <script src="../js/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+# This file is created by ibus-daemon, please do not modify it
+IBUS_ADDRESS=unix:abstract=/tmp/dbus-csGomisu,guid=3eeb73b8397149815d57711a59c26400
+IBUS_DAEMON_PID=3504

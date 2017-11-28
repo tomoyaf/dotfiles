@@ -1,0 +1,239 @@
+{
+   "AccountLabel": {
+      "message": "الحساب"
+   },
+   "AppDescription": {
+      "message": "عرض ملفات Office وتحريرها وإنشائها في المستعرض الخاص بك."
+   },
+   "AppFolderName": {
+      "message": "ملحق Office Online"
+   },
+   "AppListLabel": {
+      "message": "Web Apps"
+   },
+   "AppLongDescription": {
+      "message": "مصمم لمستعرض Chrome – يمكن استخدام Word وExcel وPowerPoint وOneNote وSway Online دون الحاجة إلى تثبيت Office.\r\n\r\nإنشاء بثقة – يمكنك استخدام خيارات التنسيق والتخطيط المألوفة للتعبير عن الأفكار بدقة تامة.\r\n\r\nالعمل أثناء التنقل - يمكنك الوصول إلى ملفاتك من أي مكان، بفضل التكامل مع OneDrive وOneDrive for Business.\r\n\r\nبتثبيت التطبيق، فأنت توافق على هذه البنود والشروط: http://aka.ms/officechromeextensionterms\r\n\r\nنهج الخصوصية: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "يضع Office Online أيقونة على شريط أدوات Microsoft Edge تتيح الوصول مباشرة إلى ملفات Office، سواءً كانت مخزنة على الإنترنت أو على جهاز الكمبيوتر الخاص بك.\r\n\r\nيفتح Office Online الملفات المخزنة في OneDrive وOneDrive for Business.\r\n\r\nيمكنك الحصول على ميزات Word وExcel وPowerPoint وOneNote وSway في المستعرض مباشرة دون الحاجة إلى تثبيت Office.\r\n\r\nبتثبيت التطبيق، أنك توافق على هذه البنود والشروط: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "تحميل وفتح"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "إنشاء حساب"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "لم تقم بعرض أي مستندات مؤخراً."
+   },
+   "CreateNewLabel": {
+      "message": "جديد"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "لا يمكن إحضار قائمة مستنداتك الأخيرة الآن."
+   },
+   "ExcelAppName": {
+      "message": "Excel"
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "الرجاء كتابة تعليقك"
+   },
+   "FeedbackDontLike": {
+      "message": "أنا لا أحب شيء ما"
+   },
+   "FeedbackLike": {
+      "message": "أحب شيء ما"
+   },
+   "FeedbackOverall": {
+      "message": "ما هو نوع الملاحظات لديك؟"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "بيان الخصوصية"
+   },
+   "FeedbackSubmit": {
+      "message": "إرسال"
+   },
+   "FeedbackSuggestion": {
+      "message": "لدي اقتراح"
+   },
+   "FeedbackTitle": {
+      "message": "إرسال ملاحظات"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "ما الذي لم يعجبك؟"
+   },
+   "FeedbackWhatLike": {
+      "message": "ما الذي أعجبك؟"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "ماذا تقترح؟"
+   },
+   "FileTypeErrorMessage": {
+      "message": "نوع الملف غير معتمد. الرجاء اختيار مستند Word أو Excel أو PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "يتم الآن التحميل..."
+   },
+   "NextLabel": {
+      "message": "تسجيل الدخول"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "عدم إظهار ذلك مرة أخرى"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "تم حفظ ملفك في المجلد \"ملحق Office Online\" في OneDrive الخاص بك."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "تم حفظ ملفك في المجلد \"ملحق Office Online\" في OneDrive for Business الخاص بك."
+   },
+   "NotificationFileAccess": {
+      "message": "في إعدادات ملحق Chrome، حدد خانة الاختيار \"السماح بالوصول إلى عناوين URL الخاصة بالملفات\" إذا كنت تريد سحب الملفات وإفلاتها داخل Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "يتعذر على ملحق Office Online لـ Chrome فتح مستندك بسبب حجمه.  الرجاء التحميل مباشرة على OneDrive لفتح المستند."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "عذراً، تعذر فتح ملفك."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "عذراً، تعذر فتح ملفك.  الرجاء المحاولة مرة أخرى في وقت لاحق."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "عذراً، تعذر فتح ملفك.  الرجاء اختيار ملف تم إنشاؤه باستخدام Word أو Excel أو PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "يتم الآن تحميل المستندات الخاصة بك."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "ربما تكون صلاحية اشتراكك في Office 365 قد انتهت أو قد لا يتضمن اشتراكك OneDrive for Business. تحقق من اشتراكك أو سجّل الدخول باستخدام حساب Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "سجل الدخول إلى الملحق لعرض الملفات وتحريرها في Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "في تطبيق \"الملفات\"، المس المستندات باستخدام إصبعين لفتحها على Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "اختر ملف تم إنشاؤه باستخدام Word أو Excel أو PowerPoint."
+   },
+   "NotificationWebDocRedirect": {
+      "message": "يتم الآن فتح المستند في مستعرض الويب بواسطة ملحق Office Online"
+   },
+   "NotificationWebDocRedirectButton": {
+      "message": "عدم إظهار ذلك مرة أخرى"
+   },
+   "O365FilesLabel": {
+      "message": "من OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "أنت غير متصل. الرجاء إعادة الاتصال باستخدام ملحق Office Online لـ Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "من OneDrive"
+   },
+   "OneNoteAppName": {
+      "message": "OneNote"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote"
+   },
+   "OpenDocumentLabel": {
+      "message": "فتح"
+   },
+   "OutlookAppName": {
+      "message": "Outlook"
+   },
+   "PowerPointAppName": {
+      "message": "PowerPoint"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint"
+   },
+   "RecentDocsLabel": {
+      "message": "المستندات الأخيرة"
+   },
+   "SettingsLabel": {
+      "message": "إعدادات"
+   },
+   "ShareMessage": {
+      "message": "مشاركة"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "الإذن مطلوب"
+   },
+   "SharePermissionsTooltip": {
+      "message": "ليس لديك الإذن للمشاركة"
+   },
+   "SharePointAppName": {
+      "message": "SharePoint"
+   },
+   "SharePointSiteAppName": {
+      "message": "SharePoint"
+   },
+   "SignInHeaderLabel": {
+      "message": "أين تريد حفظ ملفاتك؟"
+   },
+   "SignInLabel": {
+      "message": "تسجيل الدخول"
+   },
+   "SignInMSALabel": {
+      "message": "تسجيل الدخول باستخدام حساب Microsoft"
+   },
+   "SignInO365Label": {
+      "message": "تسجيل الدخول باستخدام حساب خاص بالعمل أو المؤسسة التعليمية"
+   },
+   "SignOutLabel": {
+      "message": "تسجيل الخروج"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TeamsAppName": {
+      "message": "الفرق"
+   },
+   "TelemetrySettingLabel": {
+      "message": "إرسال البيانات تلقائياً لمساعدتنا في تحسين منتجاتنا."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "تحميل إلى OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "تحميل إلى OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "لم يتم تسجيل الدخول"
+   },
+   "ViewMoreLabel": {
+      "message": "عرض المزيد"
+   },
+   "WebRedirectSettingLabel": {
+      "message": "فتح ملفات Office مباشرة في مستعرض الويب باستخدام Office Online"
+   },
+   "WordAppName": {
+      "message": "Word"
+   },
+   "WordOnlineAppName": {
+      "message": "Word"
+   }
+}

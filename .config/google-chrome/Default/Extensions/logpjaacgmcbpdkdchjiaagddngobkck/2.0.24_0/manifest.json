@@ -1,0 +1,140 @@
+{
+   "background": {
+      "scripts": [ "scripts/background.js" ]
+   },
+   "commands": {
+      "back": {
+         "description": "Go back"
+      },
+      "bottom": {
+         "description": "Scroll to bottom"
+      },
+      "cleardownloads": {
+         "description": "Clear downloads"
+      },
+      "clonetab": {
+         "description": "Duplicate tab"
+      },
+      "closelefttabs": {
+         "description": "Close tabs to the left"
+      },
+      "closerighttabs": {
+         "description": "Close tabs to the right"
+      },
+      "closetab": {
+         "description": "Close tab"
+      },
+      "closewindow": {
+         "description": "Close window"
+      },
+      "copyurl": {
+         "description": "Copy URL to clipboard"
+      },
+      "disable": {
+         "description": "Do nothing (disable Chrome shortcut - experimental)"
+      },
+      "firsttab": {
+         "description": "First tab"
+      },
+      "forward": {
+         "description": "Go forward"
+      },
+      "lasttab": {
+         "description": "Last tab"
+      },
+      "movetableft": {
+         "description": "Move tab to the left"
+      },
+      "movetabright": {
+         "description": "Move tab to the right"
+      },
+      "newprivatewindow": {
+         "description": "New private window"
+      },
+      "newtab": {
+         "description": "New tab"
+      },
+      "newwindow": {
+         "description": "New window"
+      },
+      "nexttab": {
+         "description": "Next tab"
+      },
+      "onlytab": {
+         "description": "Close other tabs"
+      },
+      "prevtab": {
+         "description": "Previous tab"
+      },
+      "reload": {
+         "description": "Reload"
+      },
+      "reopentab": {
+         "description": "Reopen closed tab"
+      },
+      "scrolldown": {
+         "description": "Scroll down"
+      },
+      "scrolldownmore": {
+         "description": "Scroll down more"
+      },
+      "scrollleft": {
+         "description": "Scroll left"
+      },
+      "scrollleftmore": {
+         "description": "Scroll left more"
+      },
+      "scrollright": {
+         "description": "Scroll right"
+      },
+      "scrollrightmore": {
+         "description": "Scroll right more"
+      },
+      "scrollup": {
+         "description": "Scroll up"
+      },
+      "scrollupmore": {
+         "description": "Scroll up more"
+      },
+      "togglepin": {
+         "description": "Pin/unpin tab"
+      },
+      "top": {
+         "description": "Scroll to top"
+      },
+      "zoomin": {
+         "description": "Zoom in"
+      },
+      "zoomout": {
+         "description": "Zoom out"
+      },
+      "zoomreset": {
+         "description": "Zoom reset"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "bower_components/mousetrap/mousetrap.min.js", "scripts/contentscript.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*", "file://*", "file:///*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6u4Y4e3JZ0maMQaEPOAxl5B9VzCk3TRAXBVyP+kTdmEAq6edyaq4VYc90uXxeJzZPo2u8q7eZSrcHb3iqn+gEB92hjKacip8dh0LDmbZzVTiEMeYaYjNXHZuYavWZQhUmq27FFJ+J+hK4rGQ1rC6EEXZkILyeCzX2m/48mWrcIwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "clipboardWrite", "browsingData", "storage", "bookmarks", "sessions", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.24"
+}

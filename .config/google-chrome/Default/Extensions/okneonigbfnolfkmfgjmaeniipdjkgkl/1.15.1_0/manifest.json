@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "js/TabUtils.js", "js/QuickMarks.js", "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/chrome_keyconfig.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en_US",
+   "description": "Keyconfig for Google Chrome™",
+   "icons": {
+      "128": "Keyconfig_128.png",
+      "16": "Keyconfig.png",
+      "32": "Keyconfig_32.png",
+      "64": "Keyconfig_64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzLgOT+EgpmGdeAK27pWiH4WZMxinl4S6qBIKU1H3bsKMDYaDjkZ/62gwwzvGvhBZibcl4nQaA0udMfKXXm7GxhtiQ3eULKItc8d3lCdqXphtN1hHx4dzTo4A6bRxWtwmE/re/aJ3Dw9fvqQNwKOrG1hViszIITa7YQYmFUA81MwIDAQAB",
+   "manifest_version": 2,
+   "name": "Keyconfig",
+   "options_page": "options_page.html",
+   "permissions": [ "bookmarks", "tabs", "http://os0x.heteml.jp/", "http://wedata.net/", "clipboardRead" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.15.1"
+}

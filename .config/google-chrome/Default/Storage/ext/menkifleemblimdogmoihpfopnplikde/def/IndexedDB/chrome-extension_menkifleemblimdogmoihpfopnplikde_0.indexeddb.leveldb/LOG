@@ -1,0 +1,34 @@
+2017/11/19-14:13:05.925 29917 Reusing MANIFEST /home/nsi/.config/google-chrome/Default/Storage/ext/menkifleemblimdogmoihpfopnplikde/def/IndexedDB/chrome-extension_menkifleemblimdogmoihpfopnplikde_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/19-14:13:05.925 29917 Recovering log #28
+2017/11/19-14:13:05.982 29917 Reusing old log /home/nsi/.config/google-chrome/Default/Storage/ext/menkifleemblimdogmoihpfopnplikde/def/IndexedDB/chrome-extension_menkifleemblimdogmoihpfopnplikde_0.indexeddb.leveldb/000028.log 
+2017/11/19-23:22:10.649 7805 Level-0 table #35: started
+2017/11/19-23:22:10.673 7805 Level-0 table #35: 961086 bytes OK
+2017/11/19-23:22:10.676 7805 Delete type=0 #28
+2017/11/19-23:25:15.429 7805 Compacting 1@1 + 3@2 files
+2017/11/19-23:25:15.511 7805 Generated table #36@1: 7876 keys, 2162331 bytes
+2017/11/19-23:25:15.585 7805 Generated table #37@1: 30372 keys, 2167634 bytes
+2017/11/19-23:25:15.622 7805 Generated table #38@1: 21083 keys, 1272722 bytes
+2017/11/19-23:25:15.622 7805 Compacted 1@1 + 3@2 files => 5602687 bytes
+2017/11/19-23:25:15.624 7805 compacted to: files[ 0 0 3 0 0 0 0 ]
+2017/11/19-23:25:15.625 7805 Delete type=2 #35
+2017/11/19-23:25:15.625 7805 Delete type=2 #30
+2017/11/19-23:25:15.625 7805 Delete type=2 #32
+2017/11/19-23:25:15.626 7805 Delete type=2 #31
+2017/11/27-15:11:26.392 28624 Current memtable full; waiting...
+2017/11/27-15:11:26.392 7805 Level-0 table #40: started
+2017/11/27-15:11:26.442 7805 Level-0 table #40: 2417897 bytes OK
+2017/11/27-15:11:26.446 7805 Delete type=0 #34
+2017/11/27-15:11:26.447 7805 Level-0 table #42: started
+2017/11/27-15:11:26.447 7805 Level-0 table #42: 0 bytes OK
+2017/11/27-15:11:26.449 7805 Delete type=0 #39
+2017/11/27-15:11:26.449 7805 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/11/27-15:11:26.449 7805 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x0e\x02\x010\x00\xfc\x00\x1c\x00\xe2\x00Y\x00\xe1\x00\x19\x00\xcd\x00\x8b\x00\x1e\x00\xbf\x00]\x00\xa1\x00n\x00\x9e\x00\x03\x00\xf0\x00(\x00s\x00\xd0\x00\xdb\x00G\x00\xab\x00q\x00\xd5\x00\x86\x00\xa6\x00|\x00\x09\x00\xfa\x00\x85\x00\xc2\x00\xb2\x00[\x00@\x00\x1c\x00e\x00\x11\x00\x02\x00Z\x00Q\x00+\x00'\x00\x8a\x00\x18\x00\x17\x00\xe8\x00\x96\x00\xba' @ 194258 : 0
+2017/11/27-15:11:26.449 7805 Compacting 1@1 + 3@2 files
+2017/11/27-15:11:26.491 7805 Generated table #43@1: 22 keys, 1170 bytes
+2017/11/27-15:11:26.491 7805 Compacted 1@1 + 3@2 files => 1170 bytes
+2017/11/27-15:11:26.494 7805 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/11/27-15:11:26.494 7805 Delete type=2 #36
+2017/11/27-15:11:26.495 7805 Delete type=2 #38
+2017/11/27-15:11:26.495 7805 Delete type=2 #40
+2017/11/27-15:11:26.495 7805 Delete type=2 #37
+2017/11/27-15:11:26.495 7805 Manual compaction at level-1 from '\x00\x02\x0e\x02\x010\x00\xfc\x00\x1c\x00\xe2\x00Y\x00\xe1\x00\x19\x00\xcd\x00\x8b\x00\x1e\x00\xbf\x00]\x00\xa1\x00n\x00\x9e\x00\x03\x00\xf0\x00(\x00s\x00\xd0\x00\xdb\x00G\x00\xab\x00q\x00\xd5\x00\x86\x00\xa6\x00|\x00\x09\x00\xfa\x00\x85\x00\xc2\x00\xb2\x00[\x00@\x00\x1c\x00e\x00\x11\x00\x02\x00Z\x00Q\x00+\x00'\x00\x8a\x00\x18\x00\x17\x00\xe8\x00\x96\x00\xba' @ 194258 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

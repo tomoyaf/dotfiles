@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=onedrive -m
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[ja_JP]=OneDrive
+Name=OneDrive
+Comment[ja_JP]=
+Comment=

@@ -1,0 +1,18 @@
+2017/11/28-22:22:56.561 7054 Reusing MANIFEST /home/nsi/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2017/11/28-22:22:56.561 7054 Recovering log #590
+2017/11/28-22:22:56.561 7054 Reusing old log /home/nsi/.config/google-chrome/Default/Session Storage/000590.log 
+2017/11/29-00:57:44.205 7902 Compacting 1@1 + 1@2 files
+2017/11/29-00:57:44.209 7902 Generated table #594@1: 81 keys, 4854 bytes
+2017/11/29-00:57:44.209 7902 Compacted 1@1 + 1@2 files => 4854 bytes
+2017/11/29-00:57:44.213 7902 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/11/29-00:57:44.213 7902 Delete type=2 #592
+2017/11/29-00:57:44.213 7902 Delete type=2 #387
+2017/11/29-00:57:49.955 7902 Level-0 table #596: started
+2017/11/29-00:57:49.958 7902 Level-0 table #596: 17875 bytes OK
+2017/11/29-00:57:49.961 7902 Delete type=0 #590
+2017/11/29-04:16:36.469 7902 Compacting 1@1 + 1@2 files
+2017/11/29-04:16:36.472 7902 Generated table #597@1: 88 keys, 2315 bytes
+2017/11/29-04:16:36.472 7902 Compacted 1@1 + 1@2 files => 2315 bytes
+2017/11/29-04:16:36.474 7902 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/11/29-04:16:36.474 7902 Delete type=2 #596
+2017/11/29-04:16:36.474 7902 Delete type=2 #594
