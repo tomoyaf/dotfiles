@@ -1,1 +1,0 @@
-importScripts('1ptjr7sjp.js');

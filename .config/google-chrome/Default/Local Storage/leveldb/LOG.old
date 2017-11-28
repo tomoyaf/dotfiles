@@ -1,6 +1,0 @@
-2017/11/28-22:18:26.174 5658 Reusing MANIFEST leveldb/MANIFEST-000001
-2017/11/28-22:18:26.174 5658 Recovering log #922
-2017/11/28-22:18:26.175 5658 Reusing old log leveldb/000922.log 
-2017/11/28-22:21:03.096 5657 Level-0 table #926: started
-2017/11/28-22:21:03.098 5657 Level-0 table #926: 23038 bytes OK
-2017/11/28-22:21:03.101 5657 Delete type=0 #922
